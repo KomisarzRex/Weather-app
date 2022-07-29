@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+html{
+    font-family: 'Nunito', sans-serif;
+}
+body{
+    color:white;
+}
+.wrapper{
+    background-color: rgb(5, 41, 141);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.wrapper>.searchBox{
+    
+    border:none;
+    padding:5px 10px;
+    width: 65%;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.searchBox>input{
+    width: 75%;
+    background-color: rgba(7, 7, 7, 0.384);
+    padding: 5px;
+    color:white;
+    font-size: 0.96rem;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border:0.5px solid black;
+    border-right: none;
+    outline: none;
+    
+}
+.searchBox>button{
+    background-color: rgba(7, 7, 7, 0.384);
+    width: 25%;
+    padding: 5px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border:0.5px solid black;
+    transition:0.4s;
+}
+.searchBox>button:hover{
+    border:1px solid rgb(40, 43, 201);
+}
+.whiteIcon{
+    color:rgb(255, 255, 255);
+}
+.icona{
+    width: 40%;
+}
+.space{
+    display: flex;
+    gap:10px;
+}
+.Main{
+    background-size: 100%;
+    object-fit: cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    transition: 0.4s;
+}
+.mainTop{
+    padding: 15px;
+    min-height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(7, 7, 7, 0.637);
+    border-bottom: 2px solid black;
+}
+.weatherItems{
+    display: flex;
+}
+.mainLeft{
+    padding: 50px;
+    width: 50%;
+    height: 538px;
+    background-color: rgba(7, 7, 7, 0.637);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:30px;
+    gap:15px;
+    
+}
+.mainRight{
+    width: 50%;
+    
+    display: flex;
+    flex-direction: column;
+    gap:60px;
+    padding: 60px;
+}
+.normal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:30px;
+    border-radius: 20px;
+    width: 60%;
+    background-color: rgba(7, 7, 7, 0.521);
+    gap:15px;
+}
+.stats{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 0.9rem;   
+}
+.summer{
+    background-image: url("/img/summer.jpg");
+}
+.winter{
+    background-image: url("/img/winter.jpg");
+}
