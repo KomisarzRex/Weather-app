@@ -121,8 +121,8 @@ body{
     font-size: 0.9rem;   
 }
 .summer{
-    background-image: url("/img/summer.jpg");
+    background-image: url("./img/summer.jpg");
 }
 .winter{
-    background-image: url("/img/winter.jpg");
+    background-image: url("./img/winter.jpg");
 }
